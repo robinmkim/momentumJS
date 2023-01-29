@@ -13,39 +13,50 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: 'Nanum Myeongjo', serif;
-      margin: 0;
+     margin: 0;
+     color: white;
   }
-
-.body-column{
-    width: 33%;
-}
-
-.body__column:nth-child(1) span{
-    margin-right: 3px;
-}
-
-.body__column:nth-child(2){
-    display: flex;
-    justify-content: center;
-}
-
-.body__column:nth-child(3){
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
 #main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: column;
+    align-items:center;
     background-color: rgba(0,0,128,0.1);
     border-radius: 30px;
     backdrop-filter: blur(6px);
+    
 }
 
+form {
+    width: 45%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    width: 100%;
+    padding: 7px 5px 7px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: white;
+  }
+  input::placeholder {
+    font-size: 15px;
+    color: white;
+  }
+
 .hidden{
-    display: none;
- }
+    display: none  !important;
+}

@@ -1,0 +1,28 @@
+.todo{
+  background-color: rgba(0,0,128,0.1);
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  bottom: -150px;
+  right: -300px;
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-items: center;
+  flex-direction:column;
+  align-items: center;
+}
+.todo ul{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#todo-list button {
+  border: none;
+  background: none;
+}
+
+#todo-form{
+    width: 80%;
+}
