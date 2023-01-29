@@ -1,0 +1,39 @@
+#clock-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+    height: 30%;
+}
+
+#main-clock h2 {
+    font-weight: 800;
+    font-size: 80px;
+    width: 100%;
+}
+
+#sub-clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sub-clock span{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#sub-clock span:first-child{
+    font-size: 47px;
+    border-bottom: 1px solid black
+}
+
+#date-box{
+    display: relative;
+    top: 20;
+}
+
+#date-box span {
+  font-size: 30px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+
+@import "img.css";
+@import "greeting.css";
+@import "clock.css";
+@import "weather.css";
+@import "todo.css";
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Myeongjo', serif;
+      margin: 0;
+  }
+
+.body-column{
+    width: 33%;
+}
+
+.body__column:nth-child(1) span{
+    margin-right: 3px;
+}
+
+.body__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.body__column:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,128,0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(6px);
+}
+
+.hidden{
+    display: none;
+ }
