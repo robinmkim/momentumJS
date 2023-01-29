@@ -27,6 +27,7 @@ body {
     background-color: rgba(0,0,128,0.1);
     border-radius: 30px;
     backdrop-filter: blur(6px);
+    width: 30%;
     
 }
 
@@ -59,4 +60,10 @@ input:focus {
 
 .hidden{
     display: none  !important;
+}
+
+#profile-img{
+  position: sticky;
+  width: 180px;
+  height: 300px;
 }

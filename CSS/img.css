@@ -14,13 +14,3 @@ img {
     justify-content: center;
     align-items: center;
   }
-
-
-  #profile-img{
-    z-index: 0;
-    width: 180px;
-    height: 300px;
-    position: absolute;
-    top: 250px;
-    left: 80px;
-  }
